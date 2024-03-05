@@ -8,8 +8,8 @@ import { LuUser2 } from "react-icons/lu";
 
 const Header = () => {
   return (
-    <div className="w-full h-20 sticky top-0 bg-white opacity-90">
-      <div className="flex h-full w-full items-center justify-around">
+    <div className="w-full h-24 sticky top-0 bg-white opacity-90 px-14">
+      <div className="flex h-full w-full items-center justify-between">
         <div>
           <h1 className='text-3xl font-bold font-rubik text-gray-700'>samakaki<span className='text-rose-500'>.</span></h1> 
         </div>

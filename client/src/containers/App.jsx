@@ -1,11 +1,12 @@
 /* eslint-disable no-unused-vars */
 
-import Header from "../components/Header/Header"
+import { Header, NavBar } from "../components"
 
 function App() {
   return (
     <>
       <Header />
+      <NavBar />
     </>
   )
 }
