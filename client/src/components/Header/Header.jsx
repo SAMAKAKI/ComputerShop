@@ -5,13 +5,14 @@ import { MdOutlineLightMode } from "react-icons/md";
 import { FaRegHeart } from "react-icons/fa";
 import { IoCartOutline } from "react-icons/io5";
 import { LuUser2 } from "react-icons/lu";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <div className="w-full h-24 sticky top-0 bg-white opacity-90 px-14">
       <div className="flex h-full w-full items-center justify-between">
         <div>
-          <h1 className='text-3xl font-bold font-rubik text-gray-700'>samakaki<span className='text-rose-500'>.</span></h1> 
+          <Link to='/' className='text-3xl font-bold font-rubik text-gray-700'>samakaki<span className='text-rose-500'>.</span></Link> 
         </div>
         <div className='w-[30%]'>
           <form className='relative w-full flex items-center'>

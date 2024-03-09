@@ -50,30 +50,30 @@ const categories = [
 const NavBar = () => {
   return (
     <div className="w-full h-12 flex items-center justify-between bg-rose-600 px-14">
-      <div className="flex items-center gap-10 h-full w-[82%]">
-        <CustomSelect height={'48px'} width={'20%'} title={'All Categories'} options={categories} isOpen={true}/>
-        <div className={`text-white h-full flex items-center font-medium relative text-lg ${styles.linkRelativeAnimation}`}>
-          <Link to='/home'>Home</Link>
+      <div className="flex items-center gap-10 h-[48px] w-[65%]">
+        <CustomSelect height={'48px'} width={'full'} title={'All Categories'} options={categories} isOpen={true}/>
+        <Link to='/home' className={`text-white flex-1 h-full flex items-center justify-center font-medium relative text-lg ${styles.linkRelativeAnimation}`}>
+          <p>Home</p>
           <div className={`${styles.linkAnimation}`}></div>
-        </div>
-        <div className={`text-white h-full flex items-center font-medium relative text-lg ${styles.linkRelativeAnimation}`}>
-          <Link to='/home'>Blog</Link>
+        </Link>
+        <Link to='/home' className={`text-white flex-1 h-full flex items-center justify-center font-medium relative text-lg ${styles.linkRelativeAnimation}`}>
+          <p>Blog</p>
           <div className={`${styles.linkAnimation}`}></div>
-        </div>
-        <div className={`text-white h-full flex items-center font-medium relative text-lg ${styles.linkRelativeAnimation}`}>
-          <Link to='/home'>About us</Link>
+        </Link>
+        <Link to='/home' className={`text-white flex-1 h-full flex items-center justify-center font-medium relative text-lg ${styles.linkRelativeAnimation}`}>
+          <p>About us</p>
           <div className={`${styles.linkAnimation}`}></div>
-        </div>
-        <div className={`text-white h-full flex items-center font-medium relative text-lg ${styles.linkRelativeAnimation}`}>
-          <Link to='/home'>Contact</Link>
+        </Link>
+        <Link to='/home' className={`text-white flex-1 h-full flex items-center justify-center font-medium relative text-lg ${styles.linkRelativeAnimation}`}>
+          <p>Contact</p>
           <div className={`${styles.linkAnimation}`}></div>
-        </div>
-        <div className={`text-white h-full flex items-center font-medium relative text-lg ${styles.linkRelativeAnimation}`}>
-          <Link to='/home'>Delivery</Link>
+        </Link>
+        <Link to='/home' className={`text-white flex-1 h-full flex items-center justify-center font-medium relative text-lg ${styles.linkRelativeAnimation}`}>
+          <p>Delivery</p>
           <div className={`${styles.linkAnimation}`}></div>
-        </div>
+        </Link>
       </div>
-      <div className="bg-zinc-800 text-white text-lg w-[18%] h-full flex items-center justify-center gap-2">
+      <div className="bg-zinc-800 text-white text-lg w-[25%] h-full flex items-center justify-center gap-2">
         <BiSolidDiscount />
         <p>Get 30% Off On Selected Items</p>
       </div>
